@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "rsa",
+      "type": "com.bankati.userservice.config.RsakeysConfig",
+      "sourceType": "com.bankati.userservice.config.RsakeysConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rsa.private-key",
+      "type": "java.security.interfaces.RSAPrivateKey",
+      "sourceType": "com.bankati.userservice.config.RsakeysConfig"
+    },
+    {
+      "name": "rsa.public-key",
+      "type": "java.security.interfaces.RSAPublicKey",
+      "sourceType": "com.bankati.userservice.config.RsakeysConfig"
+    }
+  ],
+  "hints": []
+}
