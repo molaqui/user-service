@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.math.BigDecimal;
 import java.util.List;
 
-@FeignClient(name = "payment-service", url = "http://localhost:8085")
+@FeignClient(name = "payment-service", url = "https://service-payment-transaction-production.up.railway.app")
 public interface PaymentServiceFeignClient {
 
     // Méthodes pour le contrôleur de paiements
