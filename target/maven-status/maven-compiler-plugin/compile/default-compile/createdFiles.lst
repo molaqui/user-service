@@ -11,8 +11,8 @@ com\bankati\userservice\web\UserController.class
 com\bankati\userservice\DTO\UserInput.class
 com\bankati\userservice\Models\Transaction.class
 com\bankati\userservice\config\SecurityConfig.class
+com\bankati\userservice\config\CustomCorsFilter.class
 com\bankati\userservice\service\EmailService.class
-com\bankati\userservice\config\WebConfig$1.class
 com\bankati\userservice\config\WebConfig.class
 com\bankati\userservice\web\SmsController.class
 com\bankati\userservice\config\VonageConfig.class
