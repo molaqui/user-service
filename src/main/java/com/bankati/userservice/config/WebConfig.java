@@ -15,7 +15,7 @@ public class WebConfig  implements WebMvcConfigurer{
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://e-bankingapp-front.onrender.com") // Supprimez la barre oblique à la fin
+                        .allowedOrigins("https://e-bankingapp-front.onrender.com/","https://e-banking-app-front-5o67.vercel.app/","https://e-banking-app-front-5o67.vercel.app") // Supprimez la barre oblique à la fin
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
